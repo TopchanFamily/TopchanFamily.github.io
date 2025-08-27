@@ -173,7 +173,7 @@
 .hero {
   height: 100svh;
   background: url("images/hero.webp");
-  background-position: 50%;
+  background-position: 65% 50%;
   background-size: cover;
 }
 
@@ -201,12 +201,6 @@
 
   article.grid {
     row-gap: 0;
-  }
-}
-
-@media (max-width: 720px) {
-  .hero {
-    background-position: 65% 50%;
   }
 }
 
